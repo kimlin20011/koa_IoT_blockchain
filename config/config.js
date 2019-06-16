@@ -7,7 +7,10 @@ const B_OAuth_Abi = JSON.parse(fs.readFileSync('./migrate/B_OAuth_sol_B_OAuth.ab
 const B_OAuth_Bytecode = '0x' + fs.readFileSync('./migrate/B_OAuth_sol_B_OAuth.bin').toString();
 
 module.exports ={
-    port: 3001,
+    port: 3002,
+    auth:{
+        auth_dur:13
+    },
     B_OAuth: {
         abi: B_OAuth_Abi,
         bytecode: B_OAuth_Bytecode,

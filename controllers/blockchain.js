@@ -1,27 +1,14 @@
-const authentication_req = require('../models/authentication_req');
-const deploy = require('../models/deploy');
+const sub_token = require('../models/sub_token');
 
 module.exports = {
-
-    async deploy_contract(ctx) {
+    async sub_token(ctx) {
        // let formData = ctx.request.body
         let res = {
             result:{},
         };
 
-        let deploy_result =  await deploy();
-        res.result = deploy_result;
-        ctx.body = res;
-        return
-    },
-    async auth_req(ctx) {
-        // let formData = ctx.request.body
-        let res = {
-            result:{},
-        };
-
-        let auth_req_result =  await authentication_req();
-        res.result = auth_req_result;
+        let sub_token_result =  await sub_token();
+        res.result = sub_token_result;
         ctx.body = res;
     },
 };
