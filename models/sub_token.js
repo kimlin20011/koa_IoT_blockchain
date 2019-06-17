@@ -23,5 +23,5 @@ module.exports = async function sub_token() {
         .on('error', (error)=> {
             console.log(error);
     });
-    return `start listen event`
+    return `start listen event/responsed from IOT Device`
 };
