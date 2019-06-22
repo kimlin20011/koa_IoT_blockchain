@@ -8,10 +8,11 @@ const moment = require('moment');
 
 module.exports = async function sub_token(info) {
     let message ={};
-    // read the toke and sender.address data
-    let sub_token = JSON.parse(fs.readFileSync('./sub_token.json', 'utf-8'));
 
+    // read the token and sender.address data取出在上一個階段區塊鏈所發出的token與sender address
+    let sub_token = JSON.parse(fs.readFileSync('./sub_token.json', 'utf-8'));
     let sender_address =sub_token.sender_address.toLowerCase();
+
     message.ip=info.ip;
     message.accessToken= sub_token.access_token;
     message.auth_dur=info.msg.auth_dur;
@@ -24,7 +25,6 @@ module.exports = async function sub_token(info) {
     //Recovers the account that signed the data.
     await web3.eth.personal.ecRecover(data, info.msg.signed_message)
         .then((address)=>{
-            console.log(`recover_address:${address}`);
             recover_address = address;
             });
 
@@ -37,7 +37,7 @@ module.exports = async function sub_token(info) {
     }else {
         let res ={};
         res.status =false;
-        res.info = `預期授權失敗`
+        res.info = `預期授權失敗`;
         console.log(`access of ${info.ip} is denied, recover address is ${recover_address},sender address is ${sender_address} `);
         return res;
     }
