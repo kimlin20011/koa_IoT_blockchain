@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfa1d635-9a5b-4ffc-ba18-7c16e8af1268" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/offchain.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/offchain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/access_grant.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/access_grant.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/offchain_router.js" beforeDir="false" afterPath="$PROJECT_DIR$/routers/offchain_router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sub_token.json" beforeDir="false" afterPath="$PROJECT_DIR$/sub_token.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,7 +17,7 @@
     <session id="1746528539">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.18" value="1" />
@@ -79,7 +75,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/offchain.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="666">
@@ -88,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routers/offchain_router.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
@@ -157,11 +153,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-16" />
     <option name="y" value="-16" />
-    <option name="width" value="2800" />
-    <option name="height" value="2000" />
+    <option name="width" value="2590" />
+    <option name="height" value="1470" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -237,18 +233,18 @@
       <workItem from="1560748675475" duration="8657000" />
       <workItem from="1560822919328" duration="3269000" />
       <workItem from="1560911271119" duration="3134000" />
-      <workItem from="1561195370412" duration="4819000" />
+      <workItem from="1561195370412" duration="6031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43816000" />
+    <option name="totallyTimeSpent" value="45028000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="693" extended-state="7" />
+    <frame x="-8" y="-8" width="1295" height="735" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29276055" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2922955" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -355,17 +351,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/offchain.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routers/offchain_router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="52" lean-forward="true" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/offchain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
         </state>
       </provider>
     </entry>
